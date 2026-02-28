@@ -1,9 +1,9 @@
 <?php
 /**
- * Plugin Name: University Mail System
- * Description: Force SMTP for all WordPress emails (No logging).
- * Author: IT Office
- * Version: 2.0
+ * Plugin Name: DKU WordPress SMTP
+ * Description: Force SMTP for WordPress websites.
+ * Author: Web Support Team, IT Office
+ * Version: 1.0
  */
 
 if (!defined('ABSPATH')) {
