@@ -42,11 +42,11 @@ class University_Mail_System {
     }
 
     public function force_from_email() {
-        return defined('SMTP_FROM') ? SMTP_FROM : 'cl677@duke.edu';
+        return defined('SMTP_FROM') ? SMTP_FROM : 'web-support@dukekunshan.edu.cn';
     }
 
     public function force_from_name() {
-        return defined('SMTP_FROM_NAME') ? SMTP_FROM_NAME : get_bloginfo('Michael');
+        return defined('SMTP_FROM_NAME') ? SMTP_FROM_NAME : get_bloginfo('Web Support Team');
     }
 
     public function force_mailer($phpmailer) {
